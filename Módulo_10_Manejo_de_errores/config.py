@@ -1,8 +1,8 @@
 def main():
     try:
-        configuration = open('config.txt')
+        open("/path/to/mars.jpg")
     except FileNotFoundError:
-        print("Couldn't find the config.txt file!")
+        print("Couldn't find the mars.jpg file!")
 
 
 if __name__ == '__main__':
